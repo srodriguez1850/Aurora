@@ -107,12 +107,13 @@ namespace Aurora.Devices
             devices.Add(new DeviceContainer(new Devices.UnifiedHID.UnifiedHIDDevice()));     // UnifiedHID Device
             devices.Add(new DeviceContainer(new Devices.Wooting.WootingDevice()));           // Wooting Device
             devices.Add(new DeviceContainer(new Devices.Creative.SoundBlasterXDevice()));    // SoundBlasterX Device
-            devices.Add(new DeviceContainer(new Devices.LightFX.LightFxDevice()));           //Alienware
-            devices.Add(new DeviceContainer(new Devices.Dualshock.DualshockDevice()));       //DualShock 4 Device
+            devices.Add(new DeviceContainer(new Devices.LightFX.LightFxDevice()));           // Alienware
+            devices.Add(new DeviceContainer(new Devices.Dualshock.DualshockDevice()));       // DualShock 4 Device
             devices.Add(new DeviceContainer(new Devices.Drevo.DrevoDevice()));               // Drevo Device
             devices.Add(new DeviceContainer(new Devices.YeeLight.YeeLightDevice()));         // YeeLight Device
-            devices.Add(new DeviceContainer(new Devices.Asus.AsusDevice()));               // Asus Device
-            devices.Add(new DeviceContainer(new Devices.NZXT.NZXTDevice()));                 //NZXT Device
+            devices.Add(new DeviceContainer(new Devices.Asus.AsusDevice()));                 // Asus Device
+            devices.Add(new DeviceContainer(new Devices.NZXT.NZXTDevice()));                 // NZXT Device
+            devices.Add(new DeviceContainer(new Devices.EVGA.EVGADevice()));                 // EVGA Device
             
             string devices_scripts_path = System.IO.Path.Combine(Global.ExecutingDirectory, "Scripts", "Devices");
 
